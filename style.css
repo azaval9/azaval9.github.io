@@ -29,3 +29,17 @@ footer {
 .noOutline {
     border: 0px;
 }
+
+.my-card-content {
+    padding: 16px;
+}
+
+.my-card {
+    height: 350px;
+    width: 350px;
+}
+
+.mdc-card {
+    text-align: left;
+    padding: 16px;
+}

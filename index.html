@@ -24,6 +24,11 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"
         ></script>
+        <link
+            href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -84,7 +89,7 @@
             </div>
             <div id="divProjects" class="divSpace">
                 <h2>Projects</h2>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">2D Space Scroller</h5>
                         <p class="card-text">JavaScript, HTML, CSS</p>
@@ -103,16 +108,41 @@
                     <div class="card-body">
                         <h5 class="card-title">Space Invaders</h5>
                         <p class="card-text">Unity, C#, JavaScript</p>
+                        <p class="card-text"> 
+                            A space and medieval dungeon theme side scroller
+                            with multiple levels. Collect all the gems in each
+                            level to continue.
+                        </p>
+                    </div>
+                </div> -->
+                <div class="mdc-card divSpace">
+                    <div class="mdc-card__content">
+                        <!-- ... semantic content ... -->
+                        <h5 class="card-title">Space Invaders</h5>
+                        <p class="card-text">Unity, C#, JavaScript</p>
                         <p class="card-text">
                             A space and medieval dungeon theme side scroller
                             with multiple levels. Collect all the gems in each
                             level to continue.
                         </p>
-                        <!-- <a
-                            href="https://azaval9.github.io/IT202-Spring2021-project2/"
-                            class="btn btn-primary"
-                            >Space Game</a
-                        > -->
+                    </div>
+                    <div class="mdc-card__actions">
+                        <div class="mdc-card__action-buttons">
+                            <button
+                                class="mdc-button mdc-card__action mdc-card__action--button"
+                            >
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label"
+                                    ><a href="empty">Project</a></span
+                                >
+                            </button>
+                            <!-- <button
+                                class="mdc-button mdc-card__action mdc-card__action--button"
+                            >
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label">Action 2</span>
+                            </button> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,4 +237,5 @@
             <a href="https://github.com/azaval9">github.com/azaval9</a> -->
         </footer>
     </body>
+    <script src="project.js"></script>
 </html>
